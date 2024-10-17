@@ -1,0 +1,6 @@
+package(default_visibility = ["//visibility:public"])
+
+alias(
+    name = "clang_toolchain",
+    actual = "@llvm_toolchain//:cc-toolchain-x86_64-linux",
+)
