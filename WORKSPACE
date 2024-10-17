@@ -21,7 +21,7 @@ versions.check(minimum_bazel_version = "5.1.1")
 
 git_repository(
     name = "toolchains_llvm",
-    commit = "19b0b2e0622d11a7c4c19e587518d5ef942e45f8",
+    commit = "a80f2b4219ae497d192ef5d8c608adefdca50d52",
     remote = "git@github.com:ScottWhiteKodiak/toolchains_llvm.git",
 )
 
